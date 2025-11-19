@@ -9,17 +9,17 @@ const frutas = [ //Inicializamos el arreglo
 // • Elimine el primer elemento.
 // • Escriba cuántos elementos tiene el arreglo actualmente usando length.
 
-frutas.unshift("Uva"); // añadimos el dato en la primera posicion
-console.log(frutas); //Mostramos el arreglo
-console.log(frutas.length) //Mostramos el numero de elementos en el arreglo
+frutas.push("Mango");
+console.log(frutas);
+console.log(frutas.length)
 
 frutas.pop();
 console.log(frutas);
 console.log(frutas.length)
 
-frutas.push("Mango");
-console.log(frutas);
-console.log(frutas.length)
+frutas.unshift("Uva"); // añadimos el dato en la primera posicion
+console.log(frutas); //Mostramos el arreglo
+console.log(frutas.length) //Mostramos el numero de elementos en el arreglo
 
 frutas.shift();
 console.log(frutas);
